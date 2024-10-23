@@ -26,7 +26,9 @@ public class MergeConflict {
 
 			// Locate the search box element by name attribute and send a search query
 			WebElement searchBox = driver.findElement(By.name("q"));
-			searchBox.sendKeys("What is selenium");
+
+			searchBox.sendKeys("Selenium WebDriver tutorial");
+
 
 			// Submit the search query
 			searchBox.submit();
